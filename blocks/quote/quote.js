@@ -28,6 +28,7 @@ export default async function decorate(block) {
         
         const ps = attribution.querySelectorAll('p');
         //console.log(ps);
+        //console.log(ps);
         ps.forEach((p) => {
           const cite = document.createElement('cite');
           cite.innerHTML = p.innerHTML;
