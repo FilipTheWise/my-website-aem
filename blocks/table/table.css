@@ -1,0 +1,39 @@
+.table-block{
+    border-collapse: collapse;
+    width: 100%;
+    overflow-x: auto;
+    font-size: var(--body-font-size-xs);
+    margin: 40px 0;
+}
+
+
+.table-block td
+{
+    padding: 15px 20px;
+    margin: 0;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+}
+
+.table-block th{
+    padding: 15px 20px;
+    margin: 0;
+    border-bottom: 3px solid black;
+    border-top: 3px solid black;
+}
+
+.table-block th{
+    text-align: left;
+}
+
+@media (width >= 600px) {
+    .table-block {
+      font-size: var(--body-font-size-s);
+    }
+}
+
+@media (width >= 900px) {
+    .table-block {
+      font-size: var(--body-font-size-m);
+    }
+}
